@@ -6,12 +6,13 @@ import java.util.Stack;
 /**
  * Created by hello on 3/16/15.
  */
-public abstract class SimpleStackImpl implements SimpleStack {
+public class SimpleStackImpl implements SimpleStack {
     Stack<Object> wrappedStack = new Stack<Object>();
 
-    public boolean isEmply(){
+    public boolean isEmpty(){
         return wrappedStack.isEmpty();
     }
+
     public int getSize(){
         return wrappedStack.size();
     }
