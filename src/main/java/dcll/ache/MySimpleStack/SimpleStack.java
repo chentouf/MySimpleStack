@@ -2,6 +2,7 @@ package dcll.ache.MySimpleStack;
 import java.util.EmptyStackException;
 /**
  * Created by hello on 3/16/15.
+ * exigence #1
  */
 public interface SimpleStack {
     /**
