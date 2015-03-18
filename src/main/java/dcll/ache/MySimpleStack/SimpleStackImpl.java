@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * Created by hello on 3/16/15.
  *
- * un commentaire repond a l'exigence #3
+ * un commentaire repond a l'exigence #2
  */
 public class SimpleStackImpl implements SimpleStack {
     Stack<Object> wrappedStack = new Stack<Object>();
